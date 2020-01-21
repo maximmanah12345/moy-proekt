@@ -1,0 +1,18 @@
+C:\Users\user\source\repos\proekt maksima\proekt maksima\bin\Debug\proekt maksima.exe.config
+C:\Users\user\source\repos\proekt maksima\proekt maksima\bin\Debug\proekt maksima.exe
+C:\Users\user\source\repos\proekt maksima\proekt maksima\bin\Debug\proekt maksima.pdb
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt maksima.csprojAssemblyReference.cache
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Form1.resources
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Properties.Resources.resources
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt maksima.csproj.GenerateResource.cache
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt maksima.exe
+C:\Users\user\source\repos\proekt maksima\proekt maksima\obj\Debug\proekt maksima.pdb
+C:\Users\user\Desktop\proekt maksima\proekt maksima\bin\Debug\proekt maksima.exe.config
+C:\Users\user\Desktop\proekt maksima\proekt maksima\bin\Debug\proekt maksima.exe
+C:\Users\user\Desktop\proekt maksima\proekt maksima\bin\Debug\proekt maksima.pdb
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.csprojAssemblyReference.cache
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Form1.resources
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Properties.Resources.resources
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.csproj.GenerateResource.cache
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.exe
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.pdb
