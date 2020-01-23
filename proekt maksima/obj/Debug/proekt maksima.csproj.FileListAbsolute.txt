@@ -16,3 +16,5 @@ C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Pro
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.csproj.GenerateResource.cache
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.exe
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.pdb
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Form2.resources
+C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Form3.resources
