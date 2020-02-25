@@ -59,35 +59,5 @@ namespace proekt_maksima.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap c91ad71137ef37f4c8c32607f80d59fd {
-            get {
-                object obj = ResourceManager.GetObject("c91ad71137ef37f4c8c32607f80d59fd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap depositphotos_136831236_stock_photo_old_russian_traditional_wooden_house {
-            get {
-                object obj = ResourceManager.GetObject("depositphotos_136831236-stock-photo-old-russian-traditional-wooden-house", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ps4_far_cry_3_classic_edition_6 {
-            get {
-                object obj = ResourceManager.GetObject("ps4-far-cry-3-classic-edition_6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
