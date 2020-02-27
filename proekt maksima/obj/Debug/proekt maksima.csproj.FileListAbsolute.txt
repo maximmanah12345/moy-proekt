@@ -19,3 +19,15 @@ C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt maksima.pdb
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.GameInfo.resources
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.CategoriesList.resources
 C:\Users\user\Desktop\proekt maksima\proekt maksima\obj\Debug\proekt_maksima.Category.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\bin\Debug\proekt maksima.exe.config
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\bin\Debug\proekt maksima.exe
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\bin\Debug\proekt maksima.pdb
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.CategoriesList.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.Category.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.GameInfo.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.Properties.Resources.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.exe
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.pdb
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.menu.resources

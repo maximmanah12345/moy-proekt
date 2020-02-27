@@ -38,14 +38,14 @@ namespace proekt_maksima
             InitializeComponent();
 
 
-            Games[0] = new Game("Far Cry 3", "шутер", 1000);
-            Games[1] = new Game("Far Cry 4", "шутер", 2000);
+            Games[0] = new Game("Far Cry 3", "шутер", 800);
+            Games[1] = new Game("Far Cry 4", "шутер", 1400);
             Games[2] = new Game("Far Cry 5", "шутер", 2000);
-            Games[3] = new Game("Far Cry Primal", "шутер", 1500);
-            Games[4] = new Game("Far Cry New Dawn", "шутер", 3000);
-            Games[5] = new Game("Wicher", "ролевая", 2000);
-            Games[6] = new Game("Wicher 2", "шутер", 1500);
-            Games[7] = new Game("Wicher 3", "шутер", 3000);
+            Games[3] = new Game("Far Cry Primal", "шутер", 1200);
+            Games[4] = new Game("Far Cry New Dawn", "шутер", 2430);
+            Games[5] = new Game("Wicher", "ролевая", 800);
+            Games[6] = new Game("Wicher 2", "ролевая", 1500);
+            Games[7] = new Game("Wicher 3", "ролевая", 2000);
 
             int x = 30;
             for (int i = 0; i < 8; i++)
@@ -148,13 +148,14 @@ namespace proekt_maksima
 
         private void button5_Click(object sender, EventArgs e)
         {
-            GameInfo f = new GameInfo(button5.Text);
+            GameInfo f = new GameInfo(button4.Text);
             f.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            GameInfo f = new GameInfo(button6.Text);
+            f.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -165,7 +166,7 @@ namespace proekt_maksima
 
         private void button11_Click(object sender, EventArgs e)
         {
-            GameInfo f = new GameInfo(button11.Text);
+            GameInfo f = new GameInfo(button5.Text);
             f.Show();
 
         }
