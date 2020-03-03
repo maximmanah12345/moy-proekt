@@ -48,145 +48,56 @@ namespace proekt_maksima
             Games[7] = new Game("Wicher 3", "ролевая", 2000);
 
             int x = 30;
+            int y = 0;
             for (int i = 0; i < 8; i++)
             {
-                Games[i].lbl.Location = new Point(x, 200);
+                Games[i].lbl.Location = new Point(x, y);
                 Games[i].lbl.Size  = new Size(150, 35);
-                Games[i].lbl.Text = Games[i].name + " (" + Games[i].price.ToString() + ")";
+                Games[i].lbl.Click += new EventHandler(button_Click);
+                Games[i].lbl.Text = Games[i].name;
 
                 try
                 {
-                    Games[i].picbox.Location = new Point(x, 235);
+                    toolTip1.SetToolTip(Games[i].picbox, "Цена: " + Games[i].price.ToString());
+                    Games[i].picbox.Text = Games[i].name;
+                    Games[i].picbox.Click += new EventHandler(PictureBox_Click);
+                    Games[i].picbox.Location = new Point(x, y + 35);
                     Games[i].picbox.Size = new Size(150, 100);
                     Games[i].picbox.SizeMode = PictureBoxSizeMode.StretchImage;
                     Games[i].picbox.Load("../../Resources/" + Games[i].name + ".jpg");
+                    
                 }
-                catch (Exception) { }
+                catch (Exception)
+                {
+                    Games[i].picbox.Load("../../Resources/dom.jpg");
+                }
 
                 x = x + 160;
-                Controls.Add(Games[i].lbl);
-                Controls.Add(Games[i].picbox);
+                if (x > gamePanel.Width)
+                {
+                    x = 30;
+                    y = y + 150;
+                }
 
-            }
-
-            Button[] btn = new Button[11];
-                btn[0] = button1;
-                btn[1] = button2;
-                btn[2] = button3;
-                btn[3] = button4;
-                btn[4] = button5;
-                btn[5] = button6;
-                btn[6] = button7;
-                btn[7] = button8;
-                btn[8] = button9;
-                btn[9] = button10;
-                btn[10] = button11;
-
-            if (category == "Шутеры")
-            {
-                button2.Text = "Far Cry 3";
-                button3.Text = "Far Cry 4";
-                button4.Text = "Far Cry 5";
-                button5.Text = "Far Cry Primal";
-                button6.Text = "Far Cry New Dawn";
-                button7.Visible = false;
-                button8.Visible = false;
-                button9.Visible = false;
-                button10.Visible = false;
-                button11.Visible = false;
-
-            }
-            else if (category == "Гонки")
-            {
-                button2.Text = "NFS Most Wanted";
-                button3.Visible = false;
-                button4.Visible = false;
-                button5.Visible = false;
-                button6.Visible = false;
-                button7.Visible = false;
-                button8.Visible = false;
-                button9.Visible = false;
-                button10.Visible = false;
-                button11.Visible = false;
-            }
-            else if (category == "Ролевые")
-            {
-                button2.Text = "Wicher";
-                button3.Text = "Wicher 2";
-                button4.Text = "Wicher 3";
-                button5.Visible = false;
-                button6.Visible = false;
-                button7.Visible = false;
-                button8.Visible = false;
-                button9.Visible = false;
-                button10.Visible = false;
-                button11.Visible = false;
-            }
+                gamePanel.Controls.Add(Games[i].lbl);
+                gamePanel.Controls.Add(Games[i].picbox);
+            }            
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button_Click(object sender, EventArgs e)
         {
-
-        }
-        
-        private void button2_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo(button2.Text);
+            Label btn = (Label)sender;
+            GameInfo f = new GameInfo(btn.Text);
             f.Show();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void PictureBox_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo(button3.Text);
+            PictureBox btn = (PictureBox)sender;
+            GameInfo f = new GameInfo(btn.Text);
             f.Show();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo(button4.Text);
-            f.Show();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo(button6.Text);
-            f.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo("Far Cry 5");
-            f.Show();
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            GameInfo f = new GameInfo(button5.Text);
-            f.Show();
-
         }
 
         private void Category_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button7_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button8_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
         {
 
         }
