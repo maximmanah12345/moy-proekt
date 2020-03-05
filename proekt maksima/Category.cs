@@ -43,9 +43,9 @@ namespace proekt_maksima
             Games[2] = new Game("Far Cry 5", "шутер", 2000);
             Games[3] = new Game("Far Cry Primal", "шутер", 1200);
             Games[4] = new Game("Far Cry New Dawn", "шутер", 2430);
-            Games[5] = new Game("Wicher", "ролевая", 800);
-            Games[6] = new Game("Wicher 2", "ролевая", 1500);
-            Games[7] = new Game("Wicher 3", "ролевая", 2000);
+            Games[5] = new Game("Witcher", "ролевая", 800);
+            Games[6] = new Game("Witcher 2", "ролевая", 1500);
+            Games[7] = new Game("Witcher 3", "ролевая", 2000);
 
             int x = 30;
             int y = 0;
@@ -100,6 +100,11 @@ namespace proekt_maksima
         private void Category_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
