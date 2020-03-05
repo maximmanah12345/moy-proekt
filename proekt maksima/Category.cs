@@ -106,5 +106,10 @@ namespace proekt_maksima
         {
             
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
