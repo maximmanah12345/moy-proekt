@@ -86,15 +86,25 @@ namespace proekt_maksima
 
         private void button_Click(object sender, EventArgs e)
         {
-            Label btn = (Label)sender;
-            GameInfo f = new GameInfo(btn.Text);
-            f.Show();
+            for (int i = 0; i < 10; i = i + 1)
+            {
+                if (sender == Games[i].lbl)
+                {
+                    GameInfo f = new GameInfo(Games[i]);
+                    f.Show();
+                }
+            }
         }
         private void PictureBox_Click(object sender, EventArgs e)
         {
-            PictureBox btn = (PictureBox)sender;
-            GameInfo f = new GameInfo(btn.Text);
-            f.Show();
+            for (int i = 0; i < 10; i = i + 1)
+            {
+                if (sender == Games[i].picbox)
+                {
+                    GameInfo f = new GameInfo(Games[i]);
+                    f.Show();
+                }
+            }
         }
 
         private void Category_Load(object sender, EventArgs e)

@@ -12,19 +12,22 @@ namespace proekt_maksima
 {
     public partial class GameInfo : Form
     {
-        public GameInfo(string game)
+        Game game;
+
+        public GameInfo(Game game1)
         {
+
+            game = game1;
             InitializeComponent();
 
 
 
-            Text = game;
+            Text = game.name;
             try
             {
-                pictureBox1.Load("../../Resources/" + game + ".jpg");
+                pictureBox1.Load("../../Resources/" + game.name + ".jpg");
             }
-            catch(Exception) { }
-            
+            catch(Exception) { }           
 
         }
 
@@ -40,7 +43,11 @@ namespace proekt_maksima
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            GameInfo.
         }
     }
 }
