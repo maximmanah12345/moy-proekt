@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="korzina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="korzina.Designer.cs">
+      <DependentUpon>korzina.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CategoriesList.resx">
       <DependentUpon>CategoriesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="korzina.resx">
+      <DependentUpon>korzina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>

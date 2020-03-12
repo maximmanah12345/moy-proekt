@@ -28,9 +28,11 @@ namespace proekt_maksima
         }
 
     }
+
     public partial class Category : Form
     {
-        Game[] Games = new Game[8];
+        public static Game[] Games = new Game[8];
+        public static List<Game> vybrano = new List<Game>();
 
 
         public Category(string category)
@@ -52,7 +54,7 @@ namespace proekt_maksima
             for (int i = 0; i < 8; i++)
             {
                 Games[i].lbl.Location = new Point(x, y);
-                Games[i].lbl.Size  = new Size(150, 35);
+                Games[i].lbl.Size = new Size(150, 35);
                 Games[i].lbl.Click += new EventHandler(button_Click);
                 Games[i].lbl.Text = Games[i].name;
 
@@ -65,7 +67,7 @@ namespace proekt_maksima
                     Games[i].picbox.Size = new Size(150, 100);
                     Games[i].picbox.SizeMode = PictureBoxSizeMode.StretchImage;
                     Games[i].picbox.Load("../../Resources/" + Games[i].name + ".jpg");
-                    
+
                 }
                 catch (Exception)
                 {
@@ -81,12 +83,12 @@ namespace proekt_maksima
 
                 gamePanel.Controls.Add(Games[i].lbl);
                 gamePanel.Controls.Add(Games[i].picbox);
-            }            
+            }
         }
 
-        private void button_Click(object sender, EventArgs e)
+        public static void button_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 10; i = i + 1)
+            for (int i = 0; i < Games.Length; i = i + 1)
             {
                 if (sender == Games[i].lbl)
                 {
@@ -95,11 +97,12 @@ namespace proekt_maksima
                 }
             }
         }
-        private void PictureBox_Click(object sender, EventArgs e)
+
+        public static void PictureBox_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 10; i = i + 1)
+            for (int i = 0; i < Games.Length; i = i + 1)
             {
-                if (sender == Games[i].picbox)
+                if (((PictureBox)sender).Image == Games[i].picbox.Image)
                 {
                     GameInfo f = new GameInfo(Games[i]);
                     f.Show();
@@ -114,12 +117,18 @@ namespace proekt_maksima
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            korzina f = new korzina();
+            f.Show();
         }
     }
 }

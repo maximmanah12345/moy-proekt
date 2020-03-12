@@ -47,7 +47,7 @@ namespace proekt_maksima
 
         private void button2_Click(object sender, EventArgs e)
         {
-            GameInfo.
+            Category.vybrano.Add(game);
         }
     }
 }

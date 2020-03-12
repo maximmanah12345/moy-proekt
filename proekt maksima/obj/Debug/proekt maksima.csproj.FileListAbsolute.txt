@@ -31,3 +31,4 @@ C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.csp
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.exe
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.pdb
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.menu.resources
+C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.korzina.resources
