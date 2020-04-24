@@ -23,6 +23,10 @@ namespace proekt_maksima
 
 
             Text = game.name;
+            label1.Text = "Жанр: " + game.genre +
+                Environment.NewLine + "Цена: " + game.price.ToString() +
+                Environment.NewLine + "Описание: отсутствует ";
+
             try
             {
                 pictureBox1.Load("../../Resources/" + game.name + ".jpg");
@@ -33,7 +37,7 @@ namespace proekt_maksima
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void Form3_Load(object sender, EventArgs e)

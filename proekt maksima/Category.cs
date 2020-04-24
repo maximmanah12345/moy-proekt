@@ -38,6 +38,12 @@ namespace proekt_maksima
         public Category(string category)
         {
             InitializeComponent();
+            string[] lines = System.IO.File.ReadAllLines("Games.txt");
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(new string[] { ", " }, StringSplitOptions.None);
+                Game Games = new Game(parts[0], parts[1], Convert.ToInt32(parts[2]));
+            }
 
 
             Games[0] = new Game("Far Cry 3", "шутер", 800);

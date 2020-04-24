@@ -32,3 +32,18 @@ C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.exe
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt maksima.pdb
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.menu.resources
 C:\Users\user\Desktop\ate\moy-proekt\proekt maksima\obj\Debug\proekt_maksima.korzina.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt maksima.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.CategoriesList.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.korzina.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.menu.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.Category.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.GameInfo.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.Properties.Resources.resources
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt maksima.csproj.GenerateResource.cache
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt maksima.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt maksima.exe
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt maksima.pdb
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\bin\Debug\proekt maksima.exe.config
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\bin\Debug\proekt maksima.exe
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\bin\Debug\proekt maksima.pdb
+C:\Users\Максим\Desktop\moy-proekt-master\proekt maksima\obj\Debug\proekt_maksima.AddNewGame.resources

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proekt_maksima
 {
-    public partial class menu : Form
+    public partial class Menu : Form
     {
-        public menu()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace proekt_maksima
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CategoriesList f = new CategoriesList();
+            Category f = new Category("Шутеры");
             f.Show();
         }
 
